@@ -1,1 +1,35 @@
-
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.test-project.app</groupId>
+    <artifactId>test-project</artifactId>
+    <version>1.0.0</version>
+    
+  <build>
+    <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
+    <scriptSourceDirectory>${basedir}/src/main/scripts</scriptSourceDirectory>
+    <testSourceDirectory>${basedir}/src/test/java</testSourceDirectory>
+    <outputDirectory>${basedir}/target/classes</outputDirectory>
+    <testOutputDirectory>${basedir}/target/test-classes</testOutputDirectory>
+   </build>
+    
+    <url>https://github.com/belgharbimeryem96/ceri-m1-test-2017</url>
+    <developers>
+		       <developer>
+            <id>ezzahidimeryem</id>
+            <name>Meryem EZZAHIDI</name>
+            <url>https://github.com/ezzahidimeryem</url>
+        </developer>
+      
+        
+    <dependencies>
+       <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.0</version>
+            <type>jar</type>
+            <scope>test</scope>
+            <optional>false</optional>
+       </dependency>
+   </dependencies>
+   
+</project>
